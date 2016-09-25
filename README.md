@@ -10,7 +10,7 @@ preexisting workflow and provide a barebone grid layout.
 ```python
 import pygame
 from pygame.locals import *
-from pygrid.layout import create_layout,
+from pygrid.layout import create_layout
 
 def draw_rect(s, pos, size): #the callback that the layout will use for a given spot
     pygame.draw.rect(s, [200,200,200], pygame.Rect(pos,size), 2)
