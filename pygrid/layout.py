@@ -24,8 +24,4 @@ class Layout(object):
 def create_layout(surface, cols, rows):
     return Layout(surface, cols, rows)
 
-def draw_rect(s, pos, size):
-    pygame.draw.rect(s, [200,200,200], pygame.Rect(pos,size), 2)
-
-
 
