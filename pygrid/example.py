@@ -1,6 +1,6 @@
 import pygame
 from pygame.locals import *
-from layout import *
+from layout import create_layout
 
 def draw_rect(s, pos, size):
     pygame.draw.rect(s, [200,200,200], pygame.Rect(pos,size), 2)
